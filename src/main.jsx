@@ -6,7 +6,7 @@ import './App.css';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <BrowserRouter>
+  <BrowserRouter basename='/worksheet04'>
     <App />
   </BrowserRouter>
 );
